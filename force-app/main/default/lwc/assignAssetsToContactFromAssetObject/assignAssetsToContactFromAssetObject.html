@@ -1,0 +1,15 @@
+<template>
+
+    <lightning-card title="Contact List">
+        <div class="slds-p-arround_small" style="height: 25rem">
+            <lightning-datatable
+                key-field="id"
+                data={contacts}
+                columns={columns}
+                onrowselection={addContactToList}>
+            </lightning-datatable>
+        </div>
+        <lightning-button variant="neutral" label="Assign Asset" title="Click to Assign" onclick={handleClick}></lightning-button>
+     </lightning-card>
+
+ </template>

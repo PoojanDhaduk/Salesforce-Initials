@@ -1,0 +1,13 @@
+<template>
+    <lightning-card  variant="Narrow"  title={inputName} icon-name="standard:account">
+        <lightning-button-icon  icon-name="utility:down" variant="border-filled" alternative-text="Show More" slot="actions"></lightning-button-icon>
+        <div class="slds-box slds-box_small">
+            <b>Enter Your Name To Get Greetings!!</b>
+        </div>
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input type="text" label="Enter some text" onchange={handleChange}></lightning-input>
+        </div>
+
+    </lightning-card>
+</template>
+

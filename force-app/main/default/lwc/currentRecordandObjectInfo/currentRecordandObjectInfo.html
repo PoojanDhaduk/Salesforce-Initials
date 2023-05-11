@@ -1,0 +1,40 @@
+<!-- <template>
+    <lightning-card  variant="Narrow"  title="Object Name and Id Details" icon-name="standard:lead">
+        <div class="slds-p-left_small">
+            <p>Record Id : <strong>{recordId}</strong></p>
+            <p>Object API Name : <strong>{objectApiName}</strong></p>
+            <p>Current User Id : <strong>{userId}</strong></p>
+        </div>
+    </lightning-card>
+</template> -->
+
+<template>
+    <lightning-card title="Logged in User Details" icon-name="standard:user">
+        <div class="slds-m-around_medium slds-list_horizontal slds-wrap">
+            <table class="slds-table slds-table_bordered slds-table_fixed-layout" border="1px solid #dddbda"
+                role="grid">
+                <tr>
+                    <td style="background:#b4bbbb;">Id</td>
+                    <td>{userId}</td>
+                </tr>
+                <tr>
+                    <th style="background:#b4bbbb;">Name</th>
+                    <td>{userName}</td>
+                </tr>
+                <tr>
+                    <th style="background:#b4bbbb;">Role</th>
+                    <td>{userRoleName}</td>
+                </tr>
+                <tr>
+                    <th style="background:#b4bbbb;">Profile</th>
+                    <td>{userProfileName}</td>
+                </tr>
+                <tr>
+                    <th style="background:#b4bbbb;">Manager</th>
+                    <td>{userManagerName}</td>
+                </tr>
+            </table>
+
+        </div>
+    </lightning-card>
+</template>

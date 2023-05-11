@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052w00000DrlPsAAJ",
+      "createdByName": "Poojan Dhaduk",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "customMetadata/Org_Specific_Setting.Run_All_Triggers.md",
+      "fullName": "Org_Specific_Setting.Run_All_Triggers",
+      "id": "m002w000003HFGDAA4",
+      "lastModifiedById": "0052w00000DrlPsAAJ",
+      "lastModifiedByName": "Poojan Dhaduk",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomMetadata"
+    },
+    {
+      "createdById": "0052w00000DrlPsAAJ",
+      "createdByName": "Poojan Dhaduk",
+      "createdDate": "1970-01-01T00:00:00.000Z",
+      "fileName": "customMetadata/Limit.maxCases.md",
+      "fullName": "Limit.maxCases",
+      "id": "m012w000000vYCPAA2",
+      "lastModifiedById": "0052w00000DrlPsAAJ",
+      "lastModifiedByName": "Poojan Dhaduk",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "manageableState": "unmanaged",
+      "type": "CustomMetadata"
+    }
+  ]
+}

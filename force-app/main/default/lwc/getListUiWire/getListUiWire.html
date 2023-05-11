@@ -1,0 +1,11 @@
+<template>
+    <lightning-card >
+        <div class="slds-p-left_medium">
+            <strong>List of All Accounts</strong>
+            <template for:each={accounts} for:item="account">
+                <li key={account.id}>{account.fields.Name.value}</li>
+            </template>
+            <lightning-button variant="base" label="Base" title="Looks like a link" onclick={aaaa} class="slds-m-left_x-small"></lightning-button>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,122 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0052w00000DrlPsAAJ",
+      "createdByName": "Poojan Dhaduk",
+      "createdDate": "2023-04-04T16:39:53.000Z",
+      "fileName": "triggers/orderItemTrigger.trigger",
+      "fullName": "orderItemTrigger",
+      "id": "01q2w0000008BRDAA2",
+      "lastModifiedById": "0052w00000DrlPsAAJ",
+      "lastModifiedByName": "Poojan Dhaduk",
+      "lastModifiedDate": "2023-04-11T05:47:51.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0052w00000DrlPsAAJ",
+      "createdByName": "Poojan Dhaduk",
+      "createdDate": "2023-04-04T16:17:08.000Z",
+      "fileName": "triggers/testingOrder.trigger",
+      "fullName": "testingOrder",
+      "id": "01q2w0000008BR8AAM",
+      "lastModifiedById": "0052w00000DrlPsAAJ",
+      "lastModifiedByName": "Poojan Dhaduk",
+      "lastModifiedDate": "2023-04-05T06:46:02.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0052w00000DrlPsAAJ",
+      "createdByName": "Poojan Dhaduk",
+      "createdDate": "2023-04-03T07:16:06.000Z",
+      "fileName": "triggers/ContactTriggger.trigger",
+      "fullName": "ContactTriggger",
+      "id": "01q2w0000008AAmAAM",
+      "lastModifiedById": "0052w00000DrlPsAAJ",
+      "lastModifiedByName": "Poojan Dhaduk",
+      "lastModifiedDate": "2023-04-18T04:21:21.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0052w00000DrlPsAAJ",
+      "createdByName": "Poojan Dhaduk",
+      "createdDate": "2023-04-20T08:34:46.000Z",
+      "fileName": "triggers/ActionTrigger.trigger",
+      "fullName": "ActionTrigger",
+      "id": "01q2w0000008Dw8AAE",
+      "lastModifiedById": "0052w00000DrlPsAAJ",
+      "lastModifiedByName": "Poojan Dhaduk",
+      "lastModifiedDate": "2023-04-26T05:59:23.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0052w00000DrlPsAAJ",
+      "createdByName": "Poojan Dhaduk",
+      "createdDate": "2023-04-17T04:51:06.000Z",
+      "fileName": "triggers/CaseTrigger.trigger",
+      "fullName": "CaseTrigger",
+      "id": "01q2w0000008DIMAA2",
+      "lastModifiedById": "0052w00000DrlPsAAJ",
+      "lastModifiedByName": "Poojan Dhaduk",
+      "lastModifiedDate": "2023-04-17T10:54:29.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0052w00000DrlPsAAJ",
+      "createdByName": "Poojan Dhaduk",
+      "createdDate": "2023-04-04T10:15:26.000Z",
+      "fileName": "triggers/OrderTrigger.trigger",
+      "fullName": "OrderTrigger",
+      "id": "01q2w0000008BIUAA2",
+      "lastModifiedById": "0052w00000DrlPsAAJ",
+      "lastModifiedByName": "Poojan Dhaduk",
+      "lastModifiedDate": "2023-04-11T05:47:57.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0052w00000DrlPsAAJ",
+      "createdByName": "Poojan Dhaduk",
+      "createdDate": "2023-04-12T07:22:06.000Z",
+      "fileName": "triggers/testingAccount.trigger",
+      "fullName": "testingAccount",
+      "id": "01q2w0000008ColAAE",
+      "lastModifiedById": "0052w00000DrlPsAAJ",
+      "lastModifiedByName": "Poojan Dhaduk",
+      "lastModifiedDate": "2023-04-12T09:20:48.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0052w00000DrlPsAAJ",
+      "createdByName": "Poojan Dhaduk",
+      "createdDate": "2023-03-31T12:27:38.000Z",
+      "fileName": "triggers/AccountTrigger.trigger",
+      "fullName": "AccountTrigger",
+      "id": "01q2w00000089M2AAI",
+      "lastModifiedById": "0052w00000DrlPsAAJ",
+      "lastModifiedByName": "Poojan Dhaduk",
+      "lastModifiedDate": "2023-04-19T04:35:03.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "0052w00000DrlPsAAJ",
+      "createdByName": "Poojan Dhaduk",
+      "createdDate": "2023-04-03T10:59:58.000Z",
+      "fileName": "triggers/OpportunityTrigger.trigger",
+      "fullName": "OpportunityTrigger",
+      "id": "01q2w0000008AafAAE",
+      "lastModifiedById": "0052w00000DrlPsAAJ",
+      "lastModifiedByName": "Poojan Dhaduk",
+      "lastModifiedDate": "2023-04-06T07:09:41.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}
