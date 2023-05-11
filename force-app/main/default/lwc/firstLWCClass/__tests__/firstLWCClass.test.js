@@ -5,7 +5,7 @@
 
 describe('c-first-lwc-class', () => {
     test('first testing' , () =>{
-            expect(5).toBe(5);
+            expect(5).toBe(5);  
     })
 
     // afterEach(() => {
