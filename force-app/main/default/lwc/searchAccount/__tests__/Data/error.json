@@ -1,0 +1,9 @@
+{
+    "body":{
+        "message":"error occured"
+    },
+    "ok":false,
+    "status":400,
+    "statustext":"Not Found"
+
+}

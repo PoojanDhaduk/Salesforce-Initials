@@ -1,11 +1,17 @@
 /* eslint-disable jest/no-commented-out-tests */
 
+const { default: expect } = require("expect");
+
 // import { createElement } from 'lwc';
 // import FirstLWCClass from 'c/firstLWCClass';
 
 describe('c-first-lwc-class', () => {
     test('first testing' , () =>{
             expect(5).toBe(5);  
+    })
+
+    it('test one' , () =>{
+        expect(5).toBe(5);
     })
 
     // afterEach(() => {

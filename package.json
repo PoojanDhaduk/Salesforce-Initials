@@ -5,7 +5,7 @@
   "description": "Salesforce App",
   "scripts": {
     "lint": "eslint **/{aura,lwc}/**",
-    "test": "npm run test:unit",
+    "test": "jest --watchAll --coverage",
     "test:unit": "sfdx-lwc-jest",
     "test:unit:watch": "sfdx-lwc-jest --watch",
     "test:unit:debug": "sfdx-lwc-jest --debug",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@lwc/eslint-plugin-lwc": "^1.1.2",
+    "@lwc/jest-transformer": "^11.8.0",
     "@prettier/plugin-xml": "^2.0.1",
     "@salesforce/eslint-config-lwc": "^3.2.3",
     "@salesforce/eslint-plugin-aura": "^2.0.0",
@@ -28,7 +29,8 @@
     "husky": "^7.0.4",
     "lint-staged": "^12.3.7",
     "prettier": "^2.6.0",
-    "prettier-plugin-apex": "^1.10.0"
+    "prettier-plugin-apex": "^1.10.0",
+    "setimmediate": "^1.0.5"
   },
   "lint-staged": {
     "**/*.{cls,cmp,component,css,html,js,json,md,page,trigger,xml,yaml,yml}": [
@@ -296,6 +298,7 @@
     "natural-compare": "^1.4.0",
     "node-int64": "^0.4.0",
     "node-releases": "^2.0.10",
+    "nodemon": "^2.0.22",
     "normalize-path": "^3.0.0",
     "npm-run-path": "^4.0.1",
     "nwsapi": "^2.2.4",

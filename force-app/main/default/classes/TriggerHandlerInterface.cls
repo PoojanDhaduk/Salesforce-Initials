@@ -4,7 +4,7 @@ public interface TriggerHandlerInterface {
  
     void afterInsert(List<sObject> newList, Map<Id, sObject> newMap);
 
-    void beforeUpdate(List<sObject> newList, Map<Id, sObject> newMap,  List<sObject> oldList, Map<Id, sObject> oldMap);
+    void beforeUpdate(List<sObjec   t> newList, Map<Id, sObject> newMap,  List<sObject> oldList, Map<Id, sObject> oldMap);
 
     void afterUpdate(List<sObject> newList, Map<Id, sObject> newMap,  List<sObject> oldList, Map<Id, sObject> oldMap);
 

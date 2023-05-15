@@ -3,18 +3,18 @@
 		<div class="slds-m-around_medium">
 			<lightning-input type="search" onchange={handleKeyChange} class="slds-m-bottom_small"
 				label="Search"></lightning-input>
-			<template lwc:if={accounts.data}>
-				<template iterator:it={accounts.data}>
-				<!-- <template for:each={accounts} for:item="it"> -->
-					<lightning-layout vertical-align="center" key={it.value.id}>
-						<li>
-							{it.value.Name}
-							<lightning-badge label={it.value.AnnualRevenue}>
-							</lightning-badge>
-						</li>
-					</lightning-layout>
+			<template lwc:if={accounts}>
+				<!-- <template iterator:it={accounts}> -->
+				<template for:each={accounts} for:item="it">
+							<p class="accountName" key={it.Id}>	
+								{it.Name}
+							</p>
 				</template>
 			</template>
+			<template lwc:if={error}>
+				<p class="error">{error}</p>
+			</template>
+			<lightning-button variant="base" label="Search" title="Search" onclick={handleClick}></lightning-button>
 		</div>
 	</lightning-card>
 </template>
