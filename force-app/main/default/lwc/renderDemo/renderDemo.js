@@ -1,4 +1,4 @@
-import { LightningElement , track } from 'lwc';
+import { LightningElement } from 'lwc';
 import jokeTemplate from './jokeTemplate.html';
 import quoteTemplate from './quoteTemplate.html';
 import renderDemo from './renderDemo.html';

@@ -37,8 +37,8 @@ describe('c-search-account', () => {
         return new Promise(setImmediate).then(() =>{
             const accountListName = element.shadowRoot.querySelectorAll('p.accountName');
             console.log('accountList:' + accountListName);
-            console.log(accountListName.length)
             expect(accountListName.length).toBe(accounts.length);
+            expect(accountListName[0].textContent).toBe(accounts[0].Name);
         })
     });
     it('check for error' , () => {

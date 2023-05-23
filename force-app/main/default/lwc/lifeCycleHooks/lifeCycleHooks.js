@@ -1,3 +1,4 @@
+/* eslint-disable @lwc/lwc/no-inner-html */
 import { LightningElement , track} from 'lwc';
 export default class QuoteGenerator extends LightningElement {
 
